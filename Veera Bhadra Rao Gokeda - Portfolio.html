@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veera Bhadra Rao Gokeda - Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="./Veera Bhadra Rao Gokeda - Portfolio_files/css2" rel="stylesheet">
+
+  <!-- Boxicons -->
+  <link rel="stylesheet" href="./Veera Bhadra Rao Gokeda - Portfolio_files/boxicons.min.css">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="./Veera Bhadra Rao Gokeda - Portfolio_files/aos.css">
+
+  <!-- Combined CSS -->
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Rubik', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: #000;
+      color: #fff;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .navbar a {
+      color: #fff;
+      margin-left: 25px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: -5px;
+      background: #aaa;
+      transition: width 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #aaa;
+    }
+
+    .navbar a:hover::after {
+      width: 100%;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url("images/miner.png") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 1;
+      animation: fadeInUp 2s ease;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero .highlight {
+      color: #aaa;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+    }
+
+    /* Sections */
+    section {
+      padding: 100px 50px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #fff;
+      margin: 10px auto;
+    }
+
+    /* Cards (Certifications & Skills) */
+    .certifications-container, .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .cert-card, .skill-card {
+      background: #222;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      width: 120px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cert-card:hover, .skill-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 8px 16px rgba(255,255,255,0.2);
+    }
+
+    .cert-card img, .skill-card img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    /* Contact */
+    #contact p {
+      margin: 10px 0;
+    }
+
+    #contact a {
+      color: #aaa;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    #contact a:hover {
+      color: #fff;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+  <!-- Header -->
+  <header>
+    <div class="logo">VEERA BHADRA RAO GOKEDA</div>
+    <nav class="navbar">
+      <a href="file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#about">About</a>
+      <a href="file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#certifications">Certifications</a>
+      <a href="file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#skills">Skills</a>
+      <a href="file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#projects">Projects</a>
+      <a href="file:///C:/Users/ADMIN/Music/my%20projects/portfolio.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text aos-init aos-animate" data-aos="fade-up">
+      <h1>Hi, This is <span class="highlight">Veerabhadra</span></h1>
+      <p>A BCA Graduate passionate about Programming &amp; Technology</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-right" class="aos-init aos-animate">
+    <h2>About Me</h2>
+    <p>
+      Hello, I am Veera Bhadra Rao, and I am currently pursuing a Bachelor of Computer Applications (BCA). 
+      I have a strong passion for programming languages and a deep curiosity about how technology shapes the world. 
+      I enjoy solving coding challenges and building projects that put my learning into practice.
+    </p>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" data-aos="fade-left" class="aos-init aos-animate">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/pearson.jpg"><p>Pearson MePro</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/edx.jpg"><p>edX Certification</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/cisco.jpg"><p>Cisco - C &amp; Python</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/MERN.jpg"><p>MERN Stack</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/html-css.jpg"><p>HTML &amp; CSS</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/ms.jpg"><p>Microsoft AI</p></div>
+      <div class="cert-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/devops.jpg"><p>DevOps</p></div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" data-aos="fade-up" class="aos-init aos-animate">
+    <h2>Programming Languages</h2>
+    <div class="skills-container">
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/c.jpg"><p>C</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/python.jpg"><p>Python</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/java1.jpg"><p>Java</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/html.jpg"><p>HTML</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/css.jpg"><p>CSS</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/js.jpg"><p>JavaScript</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/mongo.jpg"><p>MongoDB</p></div>
+      <div class="skill-card"><img src="./Veera Bhadra Rao Gokeda - Portfolio_files/php.jpg"><p>Php</p></div>
+    
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-up" class="aos-init aos-animate">
+    <h2>Projects</h2>
+    <p>1.Payroll System for an Organization</p>
+    <p>2.Online Restaurant Web Application</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up" class="aos-init aos-animate">
+    <h2>Contact</h2>
+    <p><i class="bx bx-envelope"></i> 
+      <a href="mailto:verrabhadraraogokeda@gmail.com">verrabhadraraogokeda@gmail.com</a></p>
+    <p><i class="bx bx-phone"></i> +91 9154920639</p>
+    <p><i class="bx bxl-instagram"></i> 
+      <a href="https://instagram.com/unique_perfected_boy" target="_blank">Instagram</a></p>
+    <p><i class="bx bxl-linkedin"></i> 
+      <a href="https://linkedin.com/in/veera-bhadra-rao-gokeda-949391269" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="./Veera Bhadra Rao Gokeda - Portfolio_files/aos.js.download"></script>
+  <script>
+    AOS.init({ duration: 1200, once: true });
+  </script>
+
+
+</body></html>
